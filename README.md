@@ -14,3 +14,8 @@ Markdown notes for the Godot Game engine, optimised for Obsidian.
 The notes are stored as Markdown files with links between the notes. 
 
 Most of the notes utilize a native feature of Obsidian called 'aliases', which should make the 'Godot-notes' vault easy to integrate into other, already established vaults.
+
+# Primary Sources 
+
++ https://docs.godotengine.org/en/stable/
++ https://gdquest.github.io/
