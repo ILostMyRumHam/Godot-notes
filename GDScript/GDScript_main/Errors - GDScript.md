@@ -12,3 +12,5 @@ source: https://gdquest.github.io/learn-gdscript
 
 + Errors are not failures 
 > They are a checklist of issues to resolve.
+
++ Writing code that relies on external documentation to use it safely is error-prone by default.
