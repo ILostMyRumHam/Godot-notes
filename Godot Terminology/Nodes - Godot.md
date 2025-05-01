@@ -35,6 +35,8 @@ Godot offers many different types of objects called nodes, each with a specific 
 
 In other words, Godot's nodes do not work like components in some other game engines.
 
+A game should have an entry point; for traditional applications, this is normally a "main" function. In Godot, it's a [[Main node]].
+
 # Root node 
 
 A single node that is at the base of a [[Scene Tree - Godot|scene tree]]
