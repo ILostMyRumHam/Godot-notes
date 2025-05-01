@@ -1,4 +1,6 @@
-source: https://docs.godotengine.org/en/stable/getting_started/introduction/key_concepts_overview.html
+# Primary Sources
+Godot docs:
+ https://docs.godotengine.org/en/stable/getting_started/introduction/key_concepts_overview.html
 # Basics
 [[Godot basics]]
 

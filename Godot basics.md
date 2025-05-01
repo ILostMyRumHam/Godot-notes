@@ -3,4 +3,4 @@ Every game engine revolves around abstractions you use to build your application
 
 # Godot basic workflow
 
-Nodes are your game's smallest building blocks. You combine them to create [[Scenes - Godot|scenes]] that you then combine and nest into the [[Scene Tree - Godot|scene tree]]. You can then use [[Signals - Godot|signals]] to make nodes react to events in other nodes or different [[Scene Tree - Godot|scene tree]] branches.
+Nodes are your game's smallest building blocks. You combine them to create [[Scenes - Godot|scenes]] that you then combine and nest into a [[Scene Tree - Godot|scene tree]]. You can then use [[Signals - Godot|signals]] to make nodes react to events in other nodes or different [[Scene Tree - Godot|scene tree]] branches.
