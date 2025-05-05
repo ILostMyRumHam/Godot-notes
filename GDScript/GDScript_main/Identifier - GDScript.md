@@ -5,7 +5,7 @@ aliases:
   - identifiers
   - Identifiers
 ---
-
+[[Defining Functions - GDScript]]
 [[Functions - GDScript|Functions]] are sequences of instructions we give a name 
 
 Identifier = the name of a given sequence 
