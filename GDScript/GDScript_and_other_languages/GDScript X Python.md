@@ -8,7 +8,7 @@ func take_damage(amount):
 		die()
 ```
 
-```
+```python
 # Python
 def take_damage(amount):
 	health -= amount

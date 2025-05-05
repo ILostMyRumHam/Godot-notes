@@ -2,7 +2,7 @@
 
 # Defining Functions
 
-```
+```gdscript
 # GDScript 
 func take_damage(amount):
 	health -= amount
@@ -10,7 +10,7 @@ func take_damage(amount):
 		die()
 ```
 
-```
+```js
 // Javascript 
 function take_damage(amount) {
 	health -= amount
