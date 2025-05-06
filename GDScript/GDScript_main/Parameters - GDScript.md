@@ -28,6 +28,3 @@ Functions can have multiple parameters - separated by a comma
 
 ```gdscript 
 func function_name(function_parameter1, function_parameter2, ...):
-```
-
-Parameters are a type of [[Variables - GDScript|variable]]
