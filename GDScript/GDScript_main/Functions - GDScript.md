@@ -40,7 +40,17 @@ func run():
 func run():
 	rotate(0.5)
 ```
-
++ process - does calculations or continues actions - if this function exists in the code, Godot with automatically run it every frame - the speed of the process function and the amount of times per second it executes its [[Instructions - GDScript|instructions]] varies by device
+	+ The single parameter the process function takes in - delta 
+	+ delta - represents a time difference - the time passed since the previous frame, in seconds
+	+ delta helps to make the game experience consistent across different systems
+	+ when multiplying time-sensitive values by delta, you make motion time-dependent rather than frame-dependent
+	+ when you multiply a speed by a time delta, it gives you an angle
+	+ without delta, frame times vary from computer to computer
+```
+func _process(delta):
+	rotate(2 * delta)
+```
 # Function arguments 
 
 After defining a function, arguments can be added inside the parentheses when calling it - indented inside the function 
