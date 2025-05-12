@@ -7,4 +7,3 @@ aliases:
   - while loop
   - while loops
 ---
-TODO

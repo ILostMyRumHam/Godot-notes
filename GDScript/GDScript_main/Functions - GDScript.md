@@ -17,6 +17,10 @@ Function =  a list of instructions with an exact name
 
 [[Calling a function - GDScript|Calling a function]] = giving the computer instructions to execute a function
 
+Some functions return values, some do not - functions that start with the term void do not return a value
+
+[[Functions that return a value - GDScript|Functions that return a value]] = Functions that make calculations and return a new value
+
 >To call a function in GDScript, you write its exact name followed by an open and closed parenthesis
 
 Creating a function is necessary to execute instructions in GDScript
@@ -73,3 +77,4 @@ func run():
 	move_local_y(30)
 ```
 These complementary functions take the argument inside the parentheses and offset a given entity by that number of pixels
+
