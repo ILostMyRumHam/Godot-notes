@@ -30,8 +30,8 @@ Variable names should describe the value they contain
 
 Can be defined outside and inside a function, depending on context
 
-+ [[Script-wide variables - GDScript|Script-wide variables]] = Variables defined outside of functions can be re-used in different functions 
-+ Variables inside function - can only be used by that function, as long as the variable is defined before it is called
++ [[Script-wide variables - GDScript|Script-wide variables]] = Variables defined outside of functions can be re-used in different functions - also known as global variable
++ Variables inside function - can only be used by that function, as long as the variable is defined before it is called - also known as local variable
 
 ```gdscript
 var variable_name = value

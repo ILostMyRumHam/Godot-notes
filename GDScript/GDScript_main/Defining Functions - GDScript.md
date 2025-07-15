@@ -21,7 +21,9 @@ Functions are groups of instructions we reuse every time we [[Calling a function
 
 # Structure 
 
-A function definition starts with the "func" keyword followed by a space, the function's name, parentheses, and a colon 
+A function definition starts with the "func" keyword followed by a space, the function's name, parentheses, and a colon.
+
+The `func` keyword defines a new function. After it, we have to write the function's name and arguments it takes in parentheses. A colon ends the definition, and the indented blocks that follow are the function's content or instructions.
 
 ```gdscript 
 func name():
@@ -30,3 +32,13 @@ func name():
 	instruction3
 ```
 [[Instructions - GDScript|Instructions]] within the [[Functions - GDScript|function]] must all be indented - tab or 4 spaces, tab is standard
+
+>By convention, Godot's virtual functions, that is to say, built-in functions you can override to communicate with the engine, start with an underscore.
+
+```GDScript
+var velocity = Vector2.UP.rotated(rotation) * speed
+var angular_speed = PI
+func _process(delta):
+	rotation += angular_speed * delta
+	position += velocity * delta
+```
