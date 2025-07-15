@@ -5,7 +5,6 @@ aliases:
   - 2D Vectors
   - 2D vector
   - 2D vectors
-  - Vector2
 ---
 In Godot 2D vectors are a common value type - called Vector2
 
